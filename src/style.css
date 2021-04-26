@@ -55,6 +55,20 @@ h1 {
   margin-right: 12px;
 }
 
+.freelancer {
+  text-decoration: none;
+  color: yellow;
+}
+
+.freelancer:hover {
+  font-weight: 600;
+  color: yellow;
+}
+
+.show-freelance {
+  font-size: 16px;
+}
+
 @media (max-width: 1024px) {
   .container {
     font-size: 10px;
