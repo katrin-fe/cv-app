@@ -1,0 +1,67 @@
+body {
+  margin-left: 45px;
+}
+
+h1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.education-wrapper {
+  margin: 0 auto;
+}
+
+.background-digibil {
+  background: rgba(90, 135, 138, 0.5);
+}
+
+.background-code {
+  background: rgba(87, 152, 155, 0.7);
+}
+
+.background-bsc {
+  background: rgba(87, 152, 155, 0.8);
+}
+
+.background-msc {
+  background: rgba(87, 152, 155);
+}
+
+.background-zrm {
+  background: rgba(87, 152, 155, 0.6);
+}
+
+.background-resil {
+  background: rgba(87, 152, 155, 0.5);
+}
+
+.background-size {
+  background: rgba(87, 152, 155, 0.4);
+}
+
+.previous {
+  font-size: 12px;
+  margin-top: 7px;
+}
+
+.col-1 {
+  margin-right: 12px;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    font-size: 10px;
+  }
+
+  .previous {
+    font-size: 10px;
+    margin-bottom: 15px;
+  }
+}
