@@ -1,10 +1,18 @@
 body {
   margin-left: 45px;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
 }
 
 h1 {
   margin-top: 30px;
   margin-bottom: 30px;
+  font-family: "Prata", serif;
+}
+
+h3 {
+  font-family: "Prata", serif;
+  margin-bottom: 20px;
 }
 
 .container {
@@ -55,18 +63,22 @@ h1 {
   margin-right: 12px;
 }
 
-.freelancer {
+.clickable-item {
   text-decoration: none;
   color: yellow;
 }
 
-.freelancer:hover {
+.clickable-item:hover {
   font-weight: 600;
   color: yellow;
 }
 
-.show-freelance {
-  font-size: 16px;
+.show-information {
+  font-size: 13px;
+  padding: 5px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px lightgrey;
+  border: 0.5px solid lightgrey;
 }
 
 @media (max-width: 1024px) {
@@ -79,3 +91,8 @@ h1 {
     margin-bottom: 15px;
   }
 }
+
+@media (max-width: 576px) {
+  h1, h2, h3 {
+    text-align: center;
+  }
