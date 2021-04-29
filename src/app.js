@@ -88,3 +88,12 @@ function showInfoPre (event) {
 
 let pre = document.querySelector("#previous");
 pre.addEventListener("click", showInfoPre);
+
+function showInfoPreEdu (event) {
+  event.preventDefault();
+  let preEduText = document.querySelector("#show-information-edu");
+  preEduText.innerHTML = "previous edutext";
+}
+
+let preEdu = document.querySelector("#previous-edu");
+preEdu.addEventListener("click", showInfoPreEdu);
