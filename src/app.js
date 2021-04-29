@@ -1,34 +1,16 @@
-function showInfopsychologist (event) {
+function showInfoFreelancer (event) {
   event.preventDefault();
-  let psychologyText = document.querySelector("#show-information");
-  psychologyText.innerHTML = "Konzipierung und Durchführung von Selektionsverfahren, Assessment-Center und Online- sowie Remote-Assessments, Konzipierung und Durchführung von Bewerbungstrainings zur Reintegration arbeitssuchender Fach- und Führungskräfte, Beratung hinsichtlich Qualität der psychologischen Diagnostik/Evaluationen, Eignungsabklärungen am IAM Institut für Angewandte Medienwissenschaften,Zusammenarbeit mit Hochschulen";
+  let freelanceText = document.querySelector("#show-information");
+  freelanceText.innerHTML = "Seit 2015: Eignungsdiagnostik, Konzipierung, Durchführung und Qualitätssicherung von Selektionsverfahren, Assessment-Center und Online- sowie Remote-Assessments, Eignungsabklärungen am IAM Institut für Angewandte Medienwissenschaften,Zusammenarbeit mit Hochschulen";
 }
 
-let psychologist = document.querySelector("#psychologist");
-psychologist.addEventListener("click", showInfopsychologist);
-
-function showInfoAuthor (event) {
-  event.preventDefault();
-  let authorText = document.querySelector("#show-information");
-  authorText.innerHTML = "Assessment-Center: Wie Unternehmen einen guten Eindruck bei Bewerbern hinterlassen Daten + Fakten Swiss Assessment Moderne Personalauswahl. Renommierte Experten über Trends, neue Technologien, Chancen und Risiken in der Eignungsdiagnostik. People Analytics - Das Potential großer Datenmengen nutzen Frauenkarrieren im Einkauf Agilität in der Eignungsdiagnostik Perfekt ist langweilig Dem Stress an den Kragen - Ressourcen aktivieren mit dem Zürcher Ressourcen Modell";
-}
-
-let author = document.querySelector("#author");
-author.addEventListener("click", showInfoAuthor);
-
-function showInfoWebDeveloper (event) {
-  event.preventDefault();
-  let webDeveloperText = document.querySelector("#show-information");
-  webDeveloperText.innerHTML = "W ebdeveloper-Text ebdeveebdeveebdeveebdeve ebdeveebdeveloper-Text ebdeveebdeveebdeveebdeve ebdeve";
-}
-
-let webdev = document.querySelector("#front-end-developer");
-webdev.addEventListener("click", showInfoWebDeveloper);
+let freelance = document.querySelector("#psychologist");
+freelance.addEventListener("click", showInfoFreelancer);
 
 function showInfoKadertraining (event) {
   event.preventDefault();
   let networkText = document.querySelector("#show-information");
-  networkText.innerHTML = "Networktext t ebdeveebdeveebdeveebdeve ebdeveebdeveloper-Text ebdeveebdeveebdeveebdeve ebdeve";
+  networkText.innerHTML = "Konzipierung und Durchführung von Bewerbungstrainings zur Reintegration arbeitssuchender Fach- und Führungskräfte, Beratung hinsichtlich Qualität der psychologischen Diagnostik/Evaluationen";
 }
 
 let kadertraining = document.querySelector("#kadertraining");
@@ -37,7 +19,7 @@ kadertraining.addEventListener("click", showInfoKadertraining);
 function showInfoConsultant (event) {
   event.preventDefault();
   let consultantText = document.querySelector("#show-information");
-  consultantText.innerHTML = "Consultant SG t ebdeveebdeveebdeveebdeve ebdeveebdeveloper-Text ebdeveebdeveebdeveebdeve ebdeve";
+  consultantText.innerHTML = "Unterrichts- und Schulentwicklung, Recherchen und Konzeptione, Aufbau und Digitalisierung interne Kommunikation, Redaktionsmitglied Stadtspiegel, Beratungstätigkeiten hinsichtlich der Optimierung von Bewerbungsprozessen";
 }
 
 let consultant = document.querySelector("#consultant");
@@ -46,7 +28,7 @@ consultant.addEventListener("click", showInfoConsultant);
 function showInfoStudentjob (event) {
   event.preventDefault();
   let studentText = document.querySelector("#show-information");
-  studentText.innerHTML = "STudent Oxalis t ebdeveebdeveebdeveebdeve ebdeveebdeveloper-Text ebdeveebdeveebdeveebdeve ebdeve";
+  studentText.innerHTML = "ab 2014: Unternehmensentwicklung, Buchhaltung, Eventorganisation, Messen und Mitarbeiterveranstaltungen, Newslettererstellung";
 }
 
 let student = document.querySelector("#studentjob");
@@ -55,7 +37,7 @@ student.addEventListener("click", showInfoStudentjob);
 function showInfoDigibil (event) {
   event.preventDefault();
   let digibilText = document.querySelector("#show-information-edu");
-  digibilText.innerHTML = "digibil text deveebdeveebdeveebdeve ebdeveebdeveloper-Text ebdeveebdeveebdeveebdeve ebdeve";
+  digibilText.innerHTML = "sakdfjhaklsd hfakjsfh lauskdh falisk hfklsh fklasd fkasd";
 }
 
 let digibil = document.querySelector("#digibil");
@@ -73,35 +55,36 @@ coding.addEventListener("click", showInfoCoding);
 function showInfoMaster (event) {
   event.preventDefault();
   let masterText = document.querySelector("#show-information-edu");
-  masterText.innerHTML = "Master psycho text deveebdeveebdeveebdeve ebdeveebdeveloper-Text ebdeveebdeveebdeveebdeve ebdeve";
+  masterText.innerHTML = "2015-2017: MSc Angewandte Psychologie ZFH mit dem Schwerpunkt Arbeits- und Organisationspsychologie, ZHAW Zürcher Hochschule für Angewandte Wissenschaften 2012 - 2015: BSc Angewandte Psychologie mit Inhalten der Entwicklungspsychologie und klinischen Psychologie, ZHAW Zürcher Hochschule für Angewandte Wissenschaften"
 }
 
 let master = document.querySelector("#master");
 master.addEventListener("click", showInfoMaster);
 
-function showInfoSize (event) {
+function showInfoTrainer (event) {
   event.preventDefault();
-  let sizeText = document.querySelector("#show-information-edu");
-  sizeText.innerHTML = "Sizetext psycho text deveebdeveebdeveebdeve ebdeveebdeveloper-Text ebdeveebdeveebdeveebdeve ebdeve";
+  let trainerText = document.querySelector("#show-information-edu");
+  trainerText.innerHTML = "Trainertext bdeveebdeveebdeveebdeve ebdeve";
 }
 
-let size = document.querySelector("#size");
-size.addEventListener("click", showInfoSize);
+let trainer = document.querySelector("#trainer");
+trainer.addEventListener("click", showInfoTrainer);
 
-function showInfoResil (event) {
+function showInfoCoach(event) {
   event.preventDefault();
-  let resilText = document.querySelector("#show-information-edu");
-  resilText.innerHTML = "RESI psycho text deveebdeveebdeveebdeve ebdeveebdeveloper-Text ebdeveebdeveebdeveebdeve ebdeve";
+  let coachText = document.querySelector("#show-information-edu");
+  coachText.innerHTML = "Coachtext r-Text ebdeveebdeveebdeveebdeve ebdeve";
 }
 
-let resil = document.querySelector("#resil");
-resil.addEventListener("click", showInfoResil);
+let coach = document.querySelector("#coach");
+coach.addEventListener("click", showInfoCoach);
 
-function showInfoZrm (event) {
+
+function showInfoPre (event) {
   event.preventDefault();
-  let zrmText = document.querySelector("#show-information-edu");
-  zrmText.innerHTML = "ZRMZRM psycho text deveebdeveebdeveebdeve ebdeveebdeveloper-Text ebdeveebdeveebdeveebdeve ebdeve";
+  let preText = document.querySelector("#show-information");
+  preText.innerHTML = "kindergardentext";
 }
 
-let zrm = document.querySelector("#zrm");
-zrm.addEventListener("click", showInfoZrm);
+let pre = document.querySelector("#previous");
+pre.addEventListener("click", showInfoPre);
