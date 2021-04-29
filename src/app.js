@@ -83,7 +83,7 @@ coach.addEventListener("click", showInfoCoach);
 function showInfoPre (event) {
   event.preventDefault();
   let preText = document.querySelector("#show-information");
-  preText.innerHTML = "kindergardentext";
+  preText.innerHTML = "That's how I started... built learning environments for children for over five years, help them believe in themselves and get the best possible starter-kit for a happy life.";
 }
 
 let pre = document.querySelector("#previous");
@@ -92,7 +92,7 @@ pre.addEventListener("click", showInfoPre);
 function showInfoPreEdu (event) {
   event.preventDefault();
   let preEduText = document.querySelector("#show-information-edu");
-  preEduText.innerHTML = "previous edutext";
+  preEduText.innerHTML = "2000 - 2005: Highschool with focus on education and childrens development. Great years with lot of learning, practice and tons of self-reflecion.";
 }
 
 let preEdu = document.querySelector("#previous-edu");
