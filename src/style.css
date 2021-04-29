@@ -103,6 +103,10 @@ h3 {
   width: 95%;
 }
 
+.arrow {
+  font-size: 30px;
+}
+
 .underline {
   text-decoration: underline;
   text-decoration-color: #eeff01;
