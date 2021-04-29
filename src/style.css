@@ -139,6 +139,10 @@ h3 {
   .show-information {
     margin-right: -20px;
   }
+
+  .underline {
+    line-height: 2.3;
+  }
 }
 
 @media (max-width: 576px) {
