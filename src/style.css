@@ -145,6 +145,7 @@ h3 {
 
   .show-information {
     margin-right: -20px;
+    color: white;
   }
 
   .underline {
@@ -170,6 +171,7 @@ h3 {
     margin-top: 15px;
     font-size: 12px;
     text-align: center;
+    line-height: 2.5;
   }
 
   .introduction {
@@ -180,7 +182,7 @@ h3 {
   .container {
     margin-left: 10px;
     text-align: center;
-    font-size: 12px;
+    font-size: 9px;
   }
 
   .show-information {
