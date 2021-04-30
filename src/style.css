@@ -132,7 +132,7 @@ h3 {
   }
 
   .previous {
-    font-size: 10px;
+    font-size: 13px;
     margin-bottom: 15px;
   }
 }
@@ -152,6 +152,10 @@ h3 {
   }
 
   .container {
+    font-size: 13px;
+  }
+
+  .previous {
     font-size: 13px;
   }
 }
@@ -182,10 +186,11 @@ h3 {
   .show-information {
     font-size: 13px;
     margin-top: 20px;
+    color: white;
   }
 
   .previous {
-    font-size: 13px;
+    font-size: 12px;
   }
 }
 
