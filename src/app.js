@@ -1,7 +1,7 @@
 function showInfoFreelancer (event) {
   event.preventDefault();
   let freelanceText = document.querySelector("#show-information");
-  freelanceText.innerHTML = "Seit 2015: Eignungsdiagnostik, Konzipierung, Durchführung und Qualitätssicherung von Selektionsverfahren, Assessment-Center und Online- sowie Remote-Assessments, Eignungsabklärungen am IAM Institut für Angewandte Medienwissenschaften,Zusammenarbeit mit Hochschulen";
+  freelanceText.innerHTML = "In 2015 I established my own business. Since then I worked on lots of interesting projects for organizations and universities - specialised in assessments and development center, management diagnostics and trainings. In 2019 my book Moderne Personalauswahl (modern personnel selection) got published. ᐅ Katrin Fellner, Zürich";
 }
 
 let freelance = document.querySelector("#psychologist");
@@ -10,7 +10,7 @@ freelance.addEventListener("click", showInfoFreelancer);
 function showInfoKadertraining (event) {
   event.preventDefault();
   let networkText = document.querySelector("#show-information");
-  networkText.innerHTML = "Konzipierung und Durchführung von Bewerbungstrainings zur Reintegration arbeitssuchender Fach- und Führungskräfte, Beratung hinsichtlich Qualität der psychologischen Diagnostik/Evaluationen";
+  networkText.innerHTML = "As a network partner I designed, organized and executed assessment-trainings for job-seeking managers. Further I gave advice on the quality of psychological diagnostics and accounted for the cooperation with universities for about six years.  ᐅ Netzwerk Kadertraining GmbH, Aarau";
 }
 
 let kadertraining = document.querySelector("#kadertraining");
@@ -19,7 +19,7 @@ kadertraining.addEventListener("click", showInfoKadertraining);
 function showInfoConsultant (event) {
   event.preventDefault();
   let consultantText = document.querySelector("#show-information");
-  consultantText.innerHTML = "Unterrichts- und Schulentwicklung, Recherchen und Konzeptione, Aufbau und Digitalisierung interne Kommunikation, Redaktionsmitglied Stadtspiegel, Beratungstätigkeiten hinsichtlich der Optimierung von Bewerbungsprozessen";
+  consultantText.innerHTML = "Since 2019 I take part in school development for the city of St.Gallen. Part of my role is facilitating the digitalisation, internal communication and assisting the management. ᐅ Stadt St.Gallen, Dienststelle Schule und Musik";
 }
 
 let consultant = document.querySelector("#consultant");
@@ -28,7 +28,7 @@ consultant.addEventListener("click", showInfoConsultant);
 function showInfoStudentjob (event) {
   event.preventDefault();
   let studentText = document.querySelector("#show-information");
-  studentText.innerHTML = "ab 2014: Unternehmensentwicklung, Buchhaltung, Eventorganisation, Messen und Mitarbeiterveranstaltungen, Newslettererstellung";
+  studentText.innerHTML = "As a student I did a lot of adminstration, organization, customer management and writing (newsletter, advertisements, website) for a therapy center. ᐅ Praxisgemeinschaft Oxalis, Effretikon";
 }
 
 let student = document.querySelector("#studentjob");
@@ -37,7 +37,7 @@ student.addEventListener("click", showInfoStudentjob);
 function showInfoDigibil (event) {
   event.preventDefault();
   let digibilText = document.querySelector("#show-information-edu");
-  digibilText.innerHTML = "sakdfjhaklsd hfakjsfh lauskdh falisk hfklsh fklasd fkasd";
+  digibilText.innerHTML = "This Certificate of Advanced Studies focuses on the digital transformation in education, innovative learning designs, e-assessments and e-portfolios, training of digital skills and adaptive learning systems. ᐅ HSG University of St.Gallen";
 }
 
 let digibil = document.querySelector("#digibil");
@@ -46,7 +46,7 @@ digibil.addEventListener("click", showInfoDigibil);
 function showInfoCoding (event) {
   event.preventDefault();
   let codingText = document.querySelector("#show-information-edu");
-  codingText.innerHTML = "Coding <3 text deveebdeveebdeveebdeve ebdeveebdeveloper-Text ebdeveebdeveebdeveebdeve ebdeve";
+  codingText.innerHTML = "Next goal: learning how to code. I started my first online-course in February 2021 (ᐅ SheCodes). After a few weeks of different courses and lots of coding-weekends I bulit this cv-application. I am more than happy to continue this journey.";
 }
 
 let coding = document.querySelector("#coding");
@@ -55,7 +55,7 @@ coding.addEventListener("click", showInfoCoding);
 function showInfoMaster (event) {
   event.preventDefault();
   let masterText = document.querySelector("#show-information-edu");
-  masterText.innerHTML = "2015-2017: MSc Angewandte Psychologie ZFH mit dem Schwerpunkt Arbeits- und Organisationspsychologie, ZHAW Zürcher Hochschule für Angewandte Wissenschaften 2012 - 2015: BSc Angewandte Psychologie mit Inhalten der Entwicklungspsychologie und klinischen Psychologie, ZHAW Zürcher Hochschule für Angewandte Wissenschaften"
+  masterText.innerHTML = "After five years of studying human behaviour I graduated in applied psychology, focused on organizational psychology, psychology of personal development and clinical psychology. ᐅ ZHAW university of applied sciences, Zurich";
 }
 
 let master = document.querySelector("#master");
@@ -64,26 +64,17 @@ master.addEventListener("click", showInfoMaster);
 function showInfoTrainer (event) {
   event.preventDefault();
   let trainerText = document.querySelector("#show-information-edu");
-  trainerText.innerHTML = "Trainertext bdeveebdeveebdeveebdeve ebdeve";
+  trainerText.innerHTML = "Between 2014 and 2015 I learned how to attend a group through a process, help improving personal selfmanagement-skills with the Zürcher Resourcen Modell ZRM (ᐅ ISMZ, University Zurich). In addition I graduated as a reslience-trainerin ( ᐅ 2017, ResilienzForum, Berlin) and as SIZE-process coach for personnel and organizational diagnostics ( ᐅ 2017, Top im Job GmbH, Marchtrenk).";
 }
 
 let trainer = document.querySelector("#trainer");
 trainer.addEventListener("click", showInfoTrainer);
 
-function showInfoCoach(event) {
-  event.preventDefault();
-  let coachText = document.querySelector("#show-information-edu");
-  coachText.innerHTML = "Coachtext r-Text ebdeveebdeveebdeveebdeve ebdeve";
-}
-
-let coach = document.querySelector("#coach");
-coach.addEventListener("click", showInfoCoach);
-
 
 function showInfoPre (event) {
   event.preventDefault();
   let preText = document.querySelector("#show-information");
-  preText.innerHTML = "That's how I started... built learning environments for children for over five years, help them believe in themselves and get the best possible starter-kit for a happy life.";
+  preText.innerHTML = "That's how I started... built learning environments for children for over five years, help them believe in themselves and get the best possible starter-kit for a happy and successful life.";
 }
 
 let pre = document.querySelector("#previous");

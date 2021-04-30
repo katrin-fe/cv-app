@@ -9,16 +9,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Prata&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <link href="/src/style.css" rel="stylesheet" type="text/css" />
-    <title>Vita Katrin Fellner</title>
+    <title>CV-App Katrin Fellner</title>
 </head>
 <body>
 <h1>CV-Application</h1>
-<div class="welcome">Welcome to my résumé. I am Katrin Fellner.</div>
-<div class="introduction">I am convinced that a résumé should give the reader the required amount of information, not the forced amount. That's why I built this application.Click on the yellow items for more information.</div>
+<div class="welcome">Welcome to my résumé.  I am Katrin Fellner.</div>
+<div class="welcome left">Click on the yellow items for more information, displayed below the graphic:</div>
+<div class="introduction">I am convinced that a résumé should give the reader the required amount of information, not the forced amount. That's why I built this application.</div>
+
 <div class="container mt-5">
   <div class="row">
 
-    
     <div class="col-lg-6 col-sm-12">
       <div class="container">
         <h3>career</h3>
@@ -58,7 +59,7 @@
     
         <div class="row">
           <div class="col-1">2016 </div>
-          <div class="col-3 text-center white background-5">developer</div>
+          <div class="col-3 text-center white background-5">development</div>
           <div class="col-3 text-center background-7"></div>
           <div class="col-3 text-center"></div>
         </div>
@@ -92,15 +93,17 @@
         </div>
     
         <div class="row col-11">
-          <a class="previous clickable-item" href="#" id="previous"><span class="arrow">▼</span></a><em class="white">previous career: kindergarden teacher</em>
+          <a class="previous clickable-item" href="#" id="previous"><span class="arrow">▼</span><div class="clickable-item">  previous career: kindergarden teacher</div></a>
         </br></br>
-          <div class="underline white">Click on yellow items above to display more information here:</div><br /><br />
-          <div id="show-information" class="show-information white"></div>
+          <div class="white"></div><br />
+          <div id="show-information" class="show-information"></div>
+
         </div>
       </br>
       </br>
-    
-      </div>
+
+    </div>
+      <div ></div>
     </div>
     
     <div class="col-lg-6 col-sm-12">
@@ -135,27 +138,27 @@
               <div class="col-1">2017 </div>
               <a class="col-3 text-center background-4 clickable-item" href="#" id="master">psychologist</a>
               <a class="col-3 text-center background-6 clickable-item" href="#" id="trainer">trainer</a>
-              <a class="col-3 text-center background-4 clickable-item" href="#" id="coach">coach</a>
+              <div class="col-3 text-center"></div>
             </div>
 
             <div class="row">
               <div class="col-1">2016 </div>
               <div class="col-3 text-center background-4 white">applied</div>
               <div class="col-3 text-center background-6 white">selfmanagement</div>
-              <div class="col-3 text-center background-4 white">resilience</div>
+              <div class="col-3 text-center"></div>
             </div>
 
             <div class="row">
               <div class="col-1">2015 </div>
               <div class="col-3 text-center background-4 white">sciences</div>
-              <div class="col-3 text-center background-6 white"></div>
+              <div class="col-3 text-center background-6 white">resilience</div>
               <div class="col-3 text-center"></div>
             </div>
 
             <div class="row">
               <div class="col-1">2014 </div>
               <div class="col-3 text-center background-4 white">Msc/Bsc</div>
-              <div class="col-3 text-center background-6 white"></div>
+              <div class="col-3 text-center"></div>
               <div class="col-3 text-center"></div>
             </div>
 
@@ -174,12 +177,12 @@
             </div>
 
             <div class="row col-11">
-              <a class="previous clickable-item" href="#" id="previous-edu"><span class="arrow">▼</span></a><em class="white">previous education: highschool examination</em>
+              <a class="previous clickable-item" href="#" id="previous-edu"><span class="arrow">▼</span><div class="clickable-item">   previous education: highschool examination</div></a>
               </br></br>
-              <div class="underline white ">Click on yellow items above to display more information here:</div><br /><br />
-              <div id="show-information-edu" class="show-information white"></div>
+              <div class="white"></div><br />
+              <div id="show-information-edu" class="show-information show-information-edu"></div>
+              <div class="bottom"></div>
             </div>
-
             
         </div>
     </div>
@@ -189,7 +192,6 @@
 </br>
 </br>
 
-</div>
-  <script src="/src/app.js"></script>
+<script src="/src/app.js"></script>
 </body>
 </html>

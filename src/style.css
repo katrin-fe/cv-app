@@ -4,8 +4,9 @@ body {
   font-size: 13px;
   font-family: "Roboto", sans-serif;
   background-color: transparent;
-  background-image: url("https://images.unsplash.com/photo-1444927714506-8492d94b4e3d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1055&q=80");
+  background-image: url("/img/backgroundimage.jpeg");
   background-size: cover;
+  background-attachment: fixed;
 }
 
 h1 {
@@ -32,6 +33,11 @@ h3 {
 
 .introduction {
   margin-top: 27px;
+  margin-bottom: 17px;
+}
+
+.left {
+  margin-left: 0px;
 }
 
 .container {
@@ -47,6 +53,7 @@ h3 {
 
 .col-1 {
   font-weight: 700;
+  margin-right: 12px;
 }
 
 .background-1 {
@@ -78,12 +85,8 @@ h3 {
 }
 
 .previous {
-  font-size: 12px;
+  font-size: 13px;
   margin-top: 7px;
-}
-
-.col-1 {
-  margin-right: 12px;
 }
 
 .clickable-item {
@@ -101,6 +104,10 @@ h3 {
   padding: 5px;
   margin-left: 10px;
   width: 95%;
+}
+
+.bottom {
+  margin-bottom: 200px;
 }
 
 .arrow {
@@ -121,7 +128,7 @@ h3 {
 
 @media (max-width: 1024px) {
   .container {
-    font-size: 10px;
+    font-size: 13px;
   }
 
   .previous {
@@ -143,6 +150,10 @@ h3 {
   .underline {
     line-height: 2.3;
   }
+
+  .container {
+    font-size: 13px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -152,7 +163,7 @@ h3 {
 
   .welcome {
     margin-left: 0;
-    margin-top: 10px;
+    margin-top: 15px;
     font-size: 12px;
     text-align: center;
   }
@@ -165,11 +176,16 @@ h3 {
   .container {
     margin-left: 10px;
     text-align: center;
+    font-size: 12px;
   }
 
   .show-information {
     font-size: 13px;
     margin-top: 20px;
+  }
+
+  .previous {
+    font-size: 13px;
   }
 }
 
