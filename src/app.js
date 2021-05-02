@@ -1,7 +1,6 @@
 function showInfoFreelancer (event) {
   event.preventDefault();
-  let freelanceText = document.querySelector("#show-information");
-  freelanceText.innerHTML = "In 2015 I established my own business. Since then I worked on lots of interesting projects for organizations and universities - specialised in assessments and development center, management diagnostics and trainings. In 2019 my book Moderne Personalauswahl (modern personnel selection) got published. ᐅ Katrin Fellner, Zürich";
+  alert("In 2015 I established my own business. Since then I worked on lots of interesting projects for organizations and universities - specialised in assessments and development center, management diagnostics and trainings. In 2019 my book Moderne Personalauswahl (modern personnel selection) got published. ᐅ Katrin Fellner, Zürich");
 }
 
 let freelance = document.querySelector("#psychologist");
