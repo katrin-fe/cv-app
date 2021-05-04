@@ -77,7 +77,7 @@ h3 {
 }
 
 .background-6 {
-  background: rgb(151, 170, 189, 0.6);
+  background: rgb(151, 170, 189, 0.8);
 }
 
 .background-7 {
@@ -104,10 +104,6 @@ h3 {
   padding: 5px;
   margin-left: 10px;
   width: 95%;
-}
-
-.bottom {
-  margin-bottom: 200px;
 }
 
 .arrow {
@@ -172,6 +168,14 @@ h3 {
     font-size: 12px;
     text-align: center;
     line-height: 2.5;
+    text-decoration: none;
+  }
+
+  .smalldev {
+    margin-top: -13px;
+    text-decoration: underline;
+    text-decoration-color: #eeff01;
+    text-decoration-thickness: 11px;
   }
 
   .introduction {
@@ -193,6 +197,10 @@ h3 {
 
   .previous {
     font-size: 12px;
+  }
+
+  .clickable-item {
+    font-size: 10px;
   }
 }
 
