@@ -46,7 +46,7 @@ function showInfoDigibil (event) {
   event.preventDefault();
   let digibilText = document.querySelector("#show-information-edu");
   digibilText.innerHTML = "This Certificate of Advanced Studies focuses on the digital transformation in education, innovative learning designs, e-assessments and e-portfolios, training of digital skills and adaptive learning systems. ᐅ HSG University of St.Gallen";
-  window.location = "#anchor-one";
+  window.location = "#anchor-two";
 }
 
 let digibil = document.querySelector("#digibil");
