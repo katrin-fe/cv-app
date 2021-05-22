@@ -20,6 +20,7 @@ h3 {
   font-family: "Prata", serif;
   margin-bottom: 20px;
   margin-right: 40px;
+  padding-top: 15px;
 }
 
 .welcome {
@@ -156,6 +157,10 @@ h3 {
   .previous {
     font-size: 13px;
   }
+
+  body {
+    width: 100%;
+  }
 }
 
 @media (max-width: 576px) {
@@ -203,10 +208,18 @@ h3 {
   .clickable-item {
     font-size: 10px;
   }
+
+  body {
+    width: 100%;
+  }
 }
 
 @media (max-width: 280px) {
   .col-3 {
     font-size: 8px;
+  }
+
+  body {
+    width: 100%;
   }
 }
