@@ -133,6 +133,10 @@ h3 {
     font-size: 13px;
     margin-bottom: 15px;
   }
+
+  body {
+    width: device-width;
+  }
 }
 
 @media (max-width: 768px) {
@@ -159,7 +163,7 @@ h3 {
   }
 
   body {
-    width: 100%;
+    width: device-width;
   }
 }
 
@@ -210,7 +214,7 @@ h3 {
   }
 
   body {
-    width: 100%;
+    width: device-width;
   }
 }
 
@@ -218,8 +222,7 @@ h3 {
   .col-3 {
     font-size: 8px;
   }
-
   body {
-    width: 100%;
+    width: device-width;
   }
 }
