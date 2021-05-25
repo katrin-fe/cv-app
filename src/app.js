@@ -78,7 +78,7 @@ master.addEventListener("click", showInfoMaster);
 function showInfoTrainer (event) {
   event.preventDefault();
   let trainerText = document.querySelector("#show-information-edu");
-  trainerText.innerHTML = "Between 2014 and 2015 I learned how to attend a group through a process, help improving personal selfmanagement-skills with the Zürcher Resourcen Modell ZRM (ᐅ ISMZ, University Zurich). In addition I graduated as a reslience-trainerin ( ᐅ 2017, ResilienzForum, Berlin) and as SIZE-process coach for personnel and organizational diagnostics ( ᐅ 2017, Top im Job GmbH, Marchtrenk).";
+  trainerText.innerHTML = "Between 2014 and 2015, I learned how to attend a group through a process, help improving personal selfmanagement-skills with the Zürcher Resourcen Modell ZRM (ᐅ ISMZ, University Zurich). In addition I graduated as a resilience-trainer ( ᐅ 2017, ResilienzForum, Berlin) and as SIZE-process coach for personnel and organizational diagnostics ( ᐅ 2017, Top im Job GmbH, Marchtrenk).";
   window.location = "#anchor-two";
 }
 
