@@ -1,7 +1,7 @@
 function showInfoFreelancer (event) {
   event.preventDefault();
   let freelanceText = document.querySelector("#show-information");
-  freelanceText.innerHTML = "In 2015 I established my own business. Since then I worked on many interesting projects for organizations and universities - specialised in assessments and development center, management diagnostics and trainings. In 2019 my book Moderne Personalauswahl (modern employee selection) was published. ᐅ Katrin Fellner, Zürich";
+  freelanceText.innerHTML = "In 2015 I established my own business. Since then I worked on many interesting projects for organizations and universities - specialised in assessments and development centers, management diagnostics and trainings. In 2019 my book Moderne Personalauswahl (Modern Employee Selection) was published. ᐅ Katrin Fellner, Zürich";
   window.location = "#anchor-one";
 }
 
@@ -12,7 +12,7 @@ freelance.addEventListener("click", showInfoFreelancer);
 function showInfoKadertraining (event) {
   event.preventDefault();
   let networkText = document.querySelector("#show-information");
-  networkText.innerHTML = "As a network partner I designed, organized and executed assessment trainings for job-seeking managers. Furthermore I gave advice on the quality of psychological diagnostics and accounted for the cooperation with universities for about six years.  ᐅ Netzwerk Kadertraining GmbH, Aarau";
+  networkText.innerHTML = "As a network partner I designed, organized and executed assessment trainings for job-seeking managers. Furthermore I gave advice on the quality of psychological diagnostics and was responsible for coordinating with universities for about six years.  ᐅ Netzwerk Kadertraining GmbH, Aarau";
   window.location = "#anchor-one";
 }
 
@@ -56,7 +56,7 @@ digibil.addEventListener("click", showInfoDigibil);
 function showInfoCoding (event) {
   event.preventDefault();
   let codingText = document.querySelector("#show-information-edu");
-  codingText.innerHTML = "Next goal: learning how to code. I started my first online-course in February 2021 (ᐅ SheCodes). After a few weeks of different courses and lots of coding-weekends I built this cv-application. I am very excited to continue this journey.";
+  codingText.innerHTML = "Next goal: learning how to code. I started my first online-course in February 2021 (ᐅ SheCodes). After a few weeks of different courses and lots of coding weekends, I built this cv-application. I am very excited to continue this journey.";
   window.location = "#anchor-two";
 }
 
@@ -78,7 +78,7 @@ master.addEventListener("click", showInfoMaster);
 function showInfoTrainer (event) {
   event.preventDefault();
   let trainerText = document.querySelector("#show-information-edu");
-  trainerText.innerHTML = "Between 2014 and 2015, I learned how to attend a group through a process, help improving personal selfmanagement-skills with the Zürcher Resourcen Modell ZRM (ᐅ ISMZ, University Zurich). In addition I graduated as a resilience-trainer ( ᐅ 2017, ResilienzForum, Berlin) and as SIZE-process coach for personnel and organizational diagnostics ( ᐅ 2017, Top im Job GmbH, Marchtrenk).";
+  trainerText.innerHTML = "Between 2014 and 2015, I learned how to assist groups, to help improve personal selfmanagement-skills with the Zürcher Resourcen Modell ZRM (ᐅ ISMZ, University Zurich). In addition, I graduated as a resilience-trainer ( ᐅ 2017, ResilienzForum, Berlin) and as SIZE-process coach for personnel and organizational diagnostics ( ᐅ 2017, Top im Job GmbH, Marchtrenk).";
   window.location = "#anchor-two";
 }
 
