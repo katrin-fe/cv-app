@@ -1,23 +1,23 @@
-function showInfoFreelancer (event) {
-  event.preventDefault();
-  let freelanceText = document.querySelector("#show-information");
-  freelanceText.innerHTML = "In 2015 I established my own business. Since then I worked on many interesting projects for organizations and universities - specialised in suitability diagnostics, development centers and trainings. In 2019 my book Moderne Personalauswahl (Modern Employee Selection) was published. As a network partner of Netzwerk Kadertraining GmbH I designed, organized and executed assessment trainings for job-seeking managers between 2015 and 2020. Furthermore I gave advice on the quality of psychological diagnostics and was responsible for coordinating with universities.";
-  window.location = "#anchor-one";
-}
+//function showInfoFreelancer (event) {
+ // event.preventDefault();
+  //let freelanceText = document.querySelector("#show-information");
+  //freelanceText.innerHTML = "In 2015 I established my own business. Since then I worked on many interesting projects for organizations and universities - specialised in suitability diagnostics, development centers and trainings. In 2019 my book Moderne Personalauswahl (Modern Employee Selection) was published. As a network partner of Netzwerk Kadertraining GmbH I designed, organized and executed assessment trainings for job-seeking managers between 2015 and 2020. Furthermore I gave advice on the quality of psychological diagnostics and was responsible for coordinating with universities.";
+  //window.location = "#anchor-one";
+//}
 
-let freelance = document.querySelector("#psychologist");
-freelance.addEventListener("click", showInfoFreelancer);
+//let freelance = document.querySelector("#psychologist");
+//freelance.addEventListener("click", showInfoFreelancer);
 
 
-function showInfoConsultant (event) {
-  event.preventDefault();
-  let consultantText = document.querySelector("#show-information");
-  consultantText.innerHTML = "Since 2019 I've taken part in school development for the city of St.Gallen. Part of my role is facilitating the digitalisation, managing internal communication and assisting the management.";
-  window.location = "#anchor-one";
-}
+//function showInfoConsultant (event) {
+  //event.preventDefault();
+  //let consultantText = document.querySelector("#show-information");
+  //consultantText.innerHTML = "Since 2019 I've taken part in school development for the city of St.Gallen. Part of my role is facilitating the digitalisation, managing internal communication and assisting the management.";
+  //window.location = "#anchor-one";
+//}
 
-let consultant = document.querySelector("#consultant");
-consultant.addEventListener("click", showInfoConsultant);
+//let consultant = document.querySelector("#consultant");
+//consultant.addEventListener("click", showInfoConsultant);
 
 
 function showInfoStudentjob (event) {
