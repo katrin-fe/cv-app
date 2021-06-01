@@ -24,7 +24,7 @@ h2 {
 
 p {
   width: 50%;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .welcome {
@@ -94,9 +94,15 @@ p {
   color: #eeff01;
 }
 
-.clickable-item:hover {
-  font-weight: 600;
+.clickable-item:hover,
+.clickable-item-subsite:hover {
+  font-weight: 550;
   color: #eeff01;
+}
+
+.clickable-item-subsite {
+  text-decoration: underline;
+  color: black;
 }
 
 .show-information {
@@ -167,6 +173,11 @@ p {
 
   .row {
     margin-left: 0px;
+  }
+
+  body.subsite {
+    background: rgb(45, 92, 124, 0.6);
+    color: white;
   }
 
   .welcome {
