@@ -139,6 +139,9 @@ p {
 }
 
 @media (max-width: 768px) {
+  p {
+    width: 80%;
+  }
   .introduction {
     max-width: 535px;
     margin-top: 25px;
