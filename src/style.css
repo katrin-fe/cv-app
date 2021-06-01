@@ -161,6 +161,10 @@ p {
     font-size: 13px;
   }
 
+  .clickable-item-subsite {
+    color: white;
+  }
+
   body {
     width: 100%;
   }
