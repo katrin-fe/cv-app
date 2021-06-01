@@ -140,7 +140,7 @@ p {
 
 @media (max-width: 768px) {
   p {
-    width: 80%;
+    width: 65%;
   }
   .introduction {
     max-width: 535px;
