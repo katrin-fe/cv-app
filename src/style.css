@@ -143,9 +143,21 @@ a.clickable-item-subsite {
   color: white;
 }
 
+footer a.clickable-item {
+  font-size: 11px;
+  color: white;
+  text-decoration: underline;
+}
+
 @media (min-width: 1024px) {
   p {
     width: 60%;
+    font-size: 17px;
+  }
+
+  .row,
+  a.clickable-item {
+    margin-left: 0px;
     font-size: 17px;
   }
 }
@@ -154,6 +166,16 @@ a.clickable-item-subsite {
   p {
     width: 80%;
     font-size: 20px;
+  }
+
+  .row,
+  a.clickable-item {
+    margin-left: 0px;
+    font-size: 17px;
+  }
+
+  .col-1 {
+    margin-right: 30px;
   }
 
   .container {
@@ -172,18 +194,10 @@ a.clickable-item-subsite {
     font-size: 17px;
   }
 
-  .introduction {
-    max-width: 535px;
-    margin-top: 25px;
-  }
-
-  .show-information {
-    margin-right: -20px;
-    color: white;
-  }
-
-  .underline {
-    line-height: 2.3;
+  .row,
+  a.clickable-item {
+    margin-left: 0px;
+    font-size: 17px;
   }
 
   .container {
@@ -202,9 +216,6 @@ a.clickable-item-subsite {
 @media (max-width: 576px) {
   h1 {
     text-align: center;
-  }
-
-  .row {
     margin-left: 0px;
   }
 
@@ -213,10 +224,20 @@ a.clickable-item-subsite {
     width: 70%;
   }
 
+  .row,
+  a.clickable-item {
+    margin-left: 0px;
+    font-size: 13px;
+  }
+
+  .col-1 {
+    padding-right: 35px;
+  }
+
   .welcome {
     margin-left: 0;
     margin-top: 15px;
-    font-size: 12px;
+    font-size: 14px;
     text-align: center;
     line-height: 2.5;
     text-decoration: none;
@@ -229,47 +250,38 @@ a.clickable-item-subsite {
     text-decoration-thickness: 11px;
   }
 
-  .introduction {
-    font-size: 12px;
-    text-align: center;
-  }
-
   div.container {
     padding: 0px;
     text-align: center;
     font-size: 9px;
   }
 
-  .show-information {
-    font-size: 13px;
-    margin-top: 20px;
-    color: white;
-  }
-
-  .previous {
-    font-size: 12px;
-  }
-
-  .clickable-item {
-    font-size: 10px;
+  footer {
+    margin-top: 50px;
   }
 }
 
 @media (max-width: 320px) {
   h2 {
-    font-size: 22px;
+    font-size: 2px;
   }
 
   p {
     font-size: 15px;
   }
 
+  .welcome {
+    font-size: 12px;
+  }
+
   .col-3 {
     font-size: 8px;
   }
 
-  .row {
+  .row,
+  a.clickable-item {
     margin-left: 0px;
+    font-size: 11px;
   }
 }
 
@@ -281,5 +293,19 @@ a.clickable-item-subsite {
   p {
     font-size: 14px;
     width: 60%;
+  }
+
+  .welcome {
+    font-size: 11px;
+  }
+
+  .row,
+  a.clickable-item {
+    margin-left: 0px;
+    font-size: 8px;
+  }
+
+  .col-1 {
+    margin-right: 0px;
   }
 }
