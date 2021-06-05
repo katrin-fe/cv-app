@@ -7,7 +7,6 @@ body {
   background-image: url("/img/backgroundimage.jpeg");
   background-size: cover;
   background-attachment: fixed;
-  width: 100%;
 }
 
 h1 {
