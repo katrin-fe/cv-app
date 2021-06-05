@@ -31,15 +31,15 @@
 //student.addEventListener("click", showInfoStudentjob);
 
 
-function showInfoDigibil (event) {
-  event.preventDefault();
-  let digibilText = document.querySelector("#show-information-edu");
-  digibilText.innerHTML = "This Certificate of Advanced Studies focuses on the digital transformation of education, innovative learning designs, e-assessments and e-portfolios, training of digital skills and adaptive learning systems.";
-  window.location = "#anchor-two";
-}
+//function showInfoDigibil (event) {
+ // event.preventDefault();
+  //let digibilText = document.querySelector("#show-information-edu");
+ // digibilText.innerHTML = "This Certificate of Advanced Studies focuses on the digital transformation of education, innovative learning designs, e-assessments and e-portfolios, training of digital skills and adaptive learning systems.";
+ // window.location = "#anchor-two";
+//}
 
-let digibil = document.querySelector("#digibil");
-digibil.addEventListener("click", showInfoDigibil);
+//let digibil = document.querySelector("#digibil");
+//digibil.addEventListener("click", showInfoDigibil);
 
 
 function showInfoCoding (event) {
