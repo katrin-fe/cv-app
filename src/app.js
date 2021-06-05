@@ -20,15 +20,15 @@
 //consultant.addEventListener("click", showInfoConsultant);
 
 
-function showInfoStudentjob (event) {
-  event.preventDefault();
-  let studentText = document.querySelector("#show-information");
-  studentText.innerHTML = "As a student I did a lot of administration, organization, customer management and writing (newsletter, advertisements, website) for a therapy center near Zurich.";
-  window.location = "#anchor-one";
-}
+//function showInfoStudentjob (event) {
+ // event.preventDefault();
+ // let studentText = document.querySelector("#show-information");
+  //studentText.innerHTML = "As a student I did a lot of administration, organization, customer management and writing (newsletter, advertisements, website) for a therapy center near Zurich.";
+ // window.location = "#anchor-one";
+//}
 
-let student = document.querySelector("#studentjob");
-student.addEventListener("click", showInfoStudentjob);
+//let student = document.querySelector("#studentjob");
+//student.addEventListener("click", showInfoStudentjob);
 
 
 function showInfoDigibil (event) {
