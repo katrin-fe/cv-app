@@ -94,15 +94,21 @@ p {
   color: #eeff01;
 }
 
+.clickable-item-subsite {
+  text-decoration: underline;
+  color: black;
+}
+
 .clickable-item:hover,
-.clickable-item-subsite:hover {
+.clickable-item-subsite:hover,
+.back-link:hover {
   font-weight: 550;
   color: #eeff01;
 }
 
-.clickable-item-subsite {
-  text-decoration: underline;
-  color: black;
+.back-link {
+  color: #eeff01;
+  text-decoration: none;
 }
 
 .show-information {
@@ -127,7 +133,50 @@ p {
 .white {
   color: white;
 }
+
+@media (min-width: 1024px) {
+  body.subsite {
+    background: rgb(45, 92, 124, 0.6);
+    color: white;
+    padding-bottom: 100px;
+  }
+
+  p {
+    width: 60%;
+    font-size: 17px;
+  }
+
+  a.clickable-item-subsite {
+    color: white;
+  }
+}
+
 @media (max-width: 1024px) {
+  body.subsite {
+    background: rgb(45, 92, 124, 0.6);
+    color: white;
+    padding-bottom: 100px;
+  }
+
+  p {
+    width: 60%;
+    font-size: 17px;
+  }
+
+  a.clickable-item-subsite {
+    color: white;
+  }
+
+  p {
+    padding-top: 20px;
+    width: 80%;
+    font-size: 22px;
+  }
+
+  a.clickable-item-subsite {
+    color: black;
+  }
+
   .container {
     font-size: 13px;
   }
@@ -138,10 +187,28 @@ p {
   }
 }
 
-@media (max-width: 768px) {
-  p {
-    width: 65%;
+@media (max-width: 815px) {
+  a.clickable-item-subsite {
+    color: white;
   }
+}
+
+@media (max-width: 768px) {
+  body.subsite {
+    background: rgb(45, 92, 124, 0.6);
+    color: white;
+    padding-bottom: 100px;
+  }
+
+  p {
+    width: 60%;
+    font-size: 17px;
+  }
+
+  a.clickable-item-subsite {
+    color: white;
+  }
+
   .introduction {
     max-width: 535px;
     margin-top: 25px;
@@ -167,10 +234,6 @@ p {
   .clickable-item-subsite {
     color: white;
   }
-
-  body {
-    width: 100%;
-  }
 }
 
 @media (max-width: 576px) {
@@ -184,6 +247,16 @@ p {
 
   body.subsite {
     background: rgb(45, 92, 124, 0.6);
+    color: white;
+    padding-bottom: 100px;
+  }
+
+  p {
+    font-size: 17px;
+    width: 70%;
+  }
+
+  a.clickable-item-subsite {
     color: white;
   }
 
@@ -229,12 +302,31 @@ p {
   }
 }
 
-@media (max-width: 280px) {
+@media (max-width: 320px) {
+  h2 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
   .col-3 {
     font-size: 8px;
   }
 
   .row {
     margin-left: 0px;
+  }
+}
+
+@media (max-width: 280px) {
+  h2 {
+    font-size: 19px;
+  }
+
+  p {
+    font-size: 14px;
+    width: 60%;
   }
 }
