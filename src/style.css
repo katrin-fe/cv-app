@@ -26,6 +26,16 @@ p {
   font-size: 15px;
 }
 
+body.subsite {
+  background: rgb(45, 92, 124, 0.6);
+  color: white;
+  padding-bottom: 100px;
+}
+
+a.clickable-item-subsite {
+  color: white;
+}
+
 .welcome {
   font-family: "Prata", serif;
   font-size: 17px;
@@ -134,46 +144,16 @@ p {
 }
 
 @media (min-width: 1024px) {
-  body.subsite {
-    background: rgb(45, 92, 124, 0.6);
-    color: white;
-    padding-bottom: 100px;
-  }
-
   p {
     width: 60%;
     font-size: 17px;
-  }
-
-  a.clickable-item-subsite {
-    color: white;
   }
 }
 
 @media (max-width: 1024px) {
-  body.subsite {
-    background: rgb(45, 92, 124, 0.6);
-    color: white;
-    padding-bottom: 100px;
-  }
-
   p {
-    width: 60%;
-    font-size: 17px;
-  }
-
-  a.clickable-item-subsite {
-    color: white;
-  }
-
-  p {
-    padding-top: 20px;
     width: 80%;
-    font-size: 22px;
-  }
-
-  a.clickable-item-subsite {
-    color: black;
+    font-size: 20px;
   }
 
   .container {
@@ -186,26 +166,10 @@ p {
   }
 }
 
-@media (max-width: 815px) {
-  a.clickable-item-subsite {
-    color: white;
-  }
-}
-
 @media (max-width: 768px) {
-  body.subsite {
-    background: rgb(45, 92, 124, 0.6);
-    color: white;
-    padding-bottom: 100px;
-  }
-
   p {
     width: 60%;
     font-size: 17px;
-  }
-
-  a.clickable-item-subsite {
-    color: white;
   }
 
   .introduction {
@@ -244,19 +208,9 @@ p {
     margin-left: 0px;
   }
 
-  body.subsite {
-    background: rgb(45, 92, 124, 0.6);
-    color: white;
-    padding-bottom: 100px;
-  }
-
   p {
     font-size: 17px;
     width: 70%;
-  }
-
-  a.clickable-item-subsite {
-    color: white;
   }
 
   .welcome {
