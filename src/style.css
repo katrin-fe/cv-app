@@ -241,7 +241,7 @@ img {
   }
 
   .dots {
-    padding-right: 50px;
+    padding-right: 300px;
     font-size: 15px;
   }
 }
@@ -308,10 +308,11 @@ img {
   h1 {
     margin-top: 30px;
   }
-}
-.dots {
-  padding-left: 100px;
-  padding-right: 100px;
+
+  .dots {
+    padding-left: 160px;
+    padding-right: 160px;
+  }
 }
 
 @media (max-width: 320px) {
