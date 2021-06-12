@@ -150,6 +150,10 @@ footer a.clickable-item {
   text-decoration: underline;
 }
 
+.dots {
+  padding-right: 100px;
+}
+
 .dot {
   height: 25px;
   width: 25px;
@@ -184,6 +188,10 @@ img {
     margin-left: 0px;
     font-size: 17px;
   }
+
+  .contact {
+    color: white;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -209,6 +217,10 @@ img {
   .previous {
     font-size: 13px;
     margin-bottom: 15px;
+  }
+
+  .contact {
+    color: white;
   }
 }
 
@@ -241,8 +253,12 @@ img {
   }
 
   .dots {
-    padding-right: 300px;
+    padding-right: 270px;
     font-size: 15px;
+  }
+
+  .contact {
+    color: white;
   }
 }
 
@@ -291,7 +307,7 @@ img {
   }
 
   footer {
-    margin-top: 50px;
+    margin-top: 10px;
   }
 
   .dots {
@@ -302,16 +318,27 @@ img {
   .gap {
     margin-top: 20px;
   }
+
+  .contact {
+    color: white;
+  }
 }
 
 @media (max-width: 540px) {
   h1 {
+    margin-top: 70px;
+  }
+
+  h2 {
     margin-top: 30px;
   }
 
   .dots {
-    padding-left: 160px;
-    padding-right: 160px;
+    padding: 0px 60px 20px 60px;
+  }
+
+  .contact {
+    color: white;
   }
 }
 
@@ -321,7 +348,7 @@ img {
   }
 
   h2 {
-    font-size: 2px;
+    font-size: 20px;
   }
 
   p {
@@ -345,6 +372,11 @@ img {
   .dots {
     padding-left: 40px;
     padding-right: 40px;
+    margin-bottom: 10px;
+  }
+
+  .contact {
+    color: white;
   }
 }
 
@@ -379,5 +411,9 @@ img {
   .dots {
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .contact {
+    color: white;
   }
 }
