@@ -174,7 +174,7 @@ footer a.clickable-item {
 
 img {
   border: 1px solid transparent;
-  border-radius: 100px;
+  border-radius: 200px;
 }
 
 @media (min-width: 1024px) {
@@ -259,6 +259,11 @@ img {
 
   .contact {
     color: white;
+  }
+
+  img {
+    margin-top: 60px;
+    width: 170px;
   }
 }
 
